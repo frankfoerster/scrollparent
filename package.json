@@ -2,6 +2,15 @@
   "name": "jquery.scrollParent",
   "title": "jQuery ScrollParent",
   "version": "0.0.1",
+  "homepage": "https://github.com/frankfoerster/scrollparent",
+  "author": {
+    "name": "Frank Förster",
+    "url": "http://frankfoerster.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frankfoerster/scrollparent.git"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.4.4",
