@@ -1,5 +1,10 @@
-/* jQuery ScrollParent v0.0.1
- * Copyright (c) 2013 Frank Förster (http://frankfoerster.com)
+/*!
+ * jQuery ScrollParent v0.0.1
+ * https://github.com/frankfoerster/scrollparent
+ *
+ * Copyright
+ *  (c) 2013 jQuery Foundation and other contributors
+ *  (c) 2013 Frank Förster (http://frankfoerster.com)
  * Licensed under the MIT License
  */
 (function($) {

@@ -9,10 +9,15 @@ module.exports = function(grunt) {
 
     pkg: grunt.file.readJSON('package.json'),
 
-    banner: '/* <%= pkg.title %> v<%= pkg.version %>\n' +
-      ' * Copyright (c) 2013 Frank Förster (http://frankfoerster.com)\n' +
-      ' * Licensed under the MIT License\n' +
-      ' */\n',
+    banner: '/*!\n' +
+            ' * <%= pkg.title %> v<%= pkg.version %>\n' +
+            ' * <%= pkg.homepage %>\n' +
+            ' *\n' +
+            ' * Copyright\n' +
+            ' *  (c) 2013 jQuery Foundation and other contributors\n' +
+            ' *  (c) 2013 Frank Förster (http://frankfoerster.com)\n' +
+            ' * Licensed under the MIT License\n' +
+            ' */\n',
 
     concat: {
       options: {
